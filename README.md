@@ -1,11 +1,11 @@
-# LinkBlink - The Fastest Solana Trading Network
+# BlinkLink - The Fastest Solana Trading Network
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Powered-blue)](https://solana.com)
 
-LinkBlink is a high-frequency trading protocol built on Solana - leveraging ultra-low latency networking and advanced arbitrage detection to execute trades at unprecedented speeds.
+BlinkLink is a high-frequency trading protocol built on Solana - leveraging ultra-low latency networking and advanced arbitrage detection to execute trades at unprecedented speeds.
 
 ## Thesis
-LinkBlink pioneers microsecond-level trading on Solana where speed and precision create profitable arbitrage opportunities. By optimizing for minimal latency and maximum throughput, we enable traders to capitalize on market inefficiencies faster than ever before.
+BlinkLink pioneers microsecond-level trading on Solana where speed and precision create profitable arbitrage opportunities. By optimizing for minimal latency and maximum throughput, we enable traders to capitalize on market inefficiencies faster than ever before.
 
 ## Key Features
 
@@ -23,7 +23,7 @@ LinkBlink pioneers microsecond-level trading on Solana where speed and precision
 
 ## Quick Start
 ```rust
-// Initialize new LinkBlink trading engine
+// Initialize new BlinkLink trading engine
 let blink = LinkEngine::new()
     .with_strategy(SpeedStrategy::new())
     .with_risk_management(FastRisk::new())
@@ -34,11 +34,11 @@ let blink = LinkEngine::new()
 blink.connect_network()?;
 Installation
 bashCopy# Clone repository
-git clone https://github.com/LinkBlink/linkblink.git
+git clone https://github.com/BlinkLink/BlinkLink.git
 ```
 # Install dependencies
 ```
-cd linkblink
+cd BlinkLink
 cargo build --release
 ```
 ## Research Focus
